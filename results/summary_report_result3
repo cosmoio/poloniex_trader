@@ -1,0 +1,896 @@
+#############################[ Poloniex trader v0.9 ]############################
+
+[!] Changing display options (console width, height, ..)
+height has been deprecated.
+
+[!] Reading dataset from /home/cosmo/Desktop/test/poloniex_trader/result3
+[!] Creating dataframe
+[!] Testing linear predictor
+[!] Creating "Rising BTC Bet" estimator
+[!] Buying:   @ 415.93061511 Amount: 4.80849431935   Index: 1           
+[!] Setting external sell trigger: False
+[!] Selling:  @ 420.79508996 Amount: 4.79647308355   Index: 74          
+[!] Buying:   @ 421.21588506 Amount: 4.78449387993   Index: 75          
+[!] Setting external sell trigger: False
+[!] Selling:  @ 427.65500004 Amount: 4.77253264523   Index: 485         
+[!] Buying:   @ 426.0        Amount: 4.78388721224   Index: 486         
+[!] Setting external sell trigger: False
+[!] Selling:  @ 431.6        Amount: 4.77192749421   Index: 2289        
+[!] Buying:   @ 430.2708349  Amount: 4.779488624     Index: 2290        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 435.4076022  Amount: 4.76753990244   Index: 2371        
+[!] Buying:   @ 436.18108603 Amount: 4.75194695282   Index: 2372        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 440.97798    Amount: 4.74006708543   Index: 2723        
+[!] Buying:   @ 440.97798012 Amount: 4.73295698352   Index: 2724        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 445.49999998 Amount: 4.72112459106   Index: 2798        
+[!] Buying:   @ 441.50000001 Amount: 4.75675223934   Index: 2799        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 445.98       Amount: 4.74486035874   Index: 2810        
+[!] Buying:   @ 444.0        Amount: 4.75887084134   Index: 2811        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 450.0        Amount: 4.74697366424   Index: 2892        
+[!] Buying:   @ 445.44000001 Amount: 4.78837540777   Index: 2893        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 449.90000002 Amount: 4.77640446925   Index: 2896        
+[!] Buying:   @ 449.99990007 Amount: 4.76818109053   Index: 2897        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 455.75583296 Amount: 4.7562606378    Index: 2900        
+[!] Buying:   @ 455.27990014 Amount: 4.75409080831   Index: 2901        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 462.1231416  Amount: 4.74220558129   Index: 3186        
+[!] Buying:   @ 464.0        Amount: 4.7159390451    Index: 3187        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 472.22582401 Amount: 4.70414919749   Index: 3283        
+[!] Buying:   @ 471.98869999 Amount: 4.69945276232   Index: 3284        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 476.77       Amount: 4.68770413042   Index: 6327        
+[!] Buying:   @ 477.045      Amount: 4.67797432781   Index: 6328        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 482.4644607  Amount: 4.66627939199   Index: 6384        
+[!] Buying:   @ 485.10000006 Amount: 4.63396619068   Index: 6385        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 490.0        Amount: 4.62238127521   Index: 6391        
+[!] Buying:   @ 490.55578629 Amount: 4.61021852727   Index: 6392        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 498.0        Amount: 4.59869298095   Index: 6393        
+[!] Buying:   @ 494.79743132 Amount: 4.62151526283   Index: 6394        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 501.0        Amount: 4.60996147468   Index: 6396        
+[!] Buying:   @ 500.85219151 Amount: 4.60440495591   Index: 6397        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 506.0        Amount: 4.59289394352   Index: 6453        
+[!] Buying:   @ 513.06000001 Amount: 4.52289854768   Index: 6454        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 519.0        Amount: 4.51159130131   Index: 6459        
+[!] Buying:   @ 520.70235879 Amount: 4.49009606368   Index: 6460        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 526.999      Amount: 4.47887082352   Index: 6537        
+[!] Buying:   @ 520.86000042 Amount: 4.52486253994   Index: 6538        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 532.1950001  Amount: 4.51355038359   Index: 6541        
+[!] Buying:   @ 537.01000001 Amount: 4.46637085601   Index: 6542        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 543.74000001 Amount: 4.45520492887   Index: 6546        
+[!] Buying:   @ 547.0        Amount: 4.42200990562   Index: 6547        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 556.38164396 Amount: 4.41095488086   Index: 6986        
+[!] Buying:   @ 555.94999999 Amount: 4.40775801168   Index: 6987        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 562.0        Amount: 4.39673861665   Index: 7005        
+[!] Buying:   @ 563.8700001  Amount: 4.37558417981   Index: 7006        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 572.50000001 Amount: 4.36464521936   Index: 7012        
+[!] Buying:   @ 569.5430001  Amount: 4.38072498232   Index: 7013        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 577.81975245 Amount: 4.36977316987   Index: 7031        
+[!] Buying:   @ 572.00000154 Amount: 4.40761159547   Index: 7032        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 578.01110909 Amount: 4.39659256648   Index: 7069        
+[!] Buying:   @ 580.0        Amount: 4.37494383888   Index: 7070        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 586.55642402 Amount: 4.36400647928   Index: 7078        
+[!] Buying:   @ 587.0        Amount: 4.35416768456   Index: 7079        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 593.0        Amount: 4.34328226535   Index: 7808        
+[!] Buying:   @ 596.701      Amount: 4.30986881835   Index: 7809        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 604.9999999  Amount: 4.2990941463    Index: 7813        
+[!] Buying:   @ 603.50000004 Amount: 4.30331487982   Index: 7814        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 614.99999999 Amount: 4.29255659262   Index: 7819        
+[!] Buying:   @ 610.5        Amount: 4.31771076325   Index: 7820        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 618.99999997 Amount: 4.30691648634   Index: 7823        
+[!] Buying:   @ 618.99999999 Amount: 4.30045611147   Index: 7824        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 626.0        Amount: 4.28970497119   Index: 7827        
+[!] Buying:   @ 617.50000001 Amount: 4.34223041127   Index: 7828        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 624.99999999 Amount: 4.33137483524   Index: 7834        
+[!] Buying:   @ 623.0        Amount: 4.33876181071   Index: 7835        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 631.98609951 Amount: 4.32791490618   Index: 7851        
+[!] Buying:   @ 633.3829     Amount: 4.31189299155   Index: 7852        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 640.73099999 Amount: 4.30111325907   Index: 7854        
+[!] Buying:   @ 642.0        Amount: 4.2861726085    Index: 7855        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 650.0        Amount: 4.27545717698   Index: 7892        
+[!] Buying:   @ 654.83999999 Amount: 4.23749098151   Index: 7893        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 662.6        Amount: 4.22689725405   Index: 7896        
+[!] Buying:   @ 656.0049822  Amount: 4.26298745168   Index: 7897        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 666.66680081 Amount: 4.25232998305   Index: 7900        
+[!] Buying:   @ 672.279      Amount: 4.21050619601   Index: 7901        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 679.60000681 Amount: 4.19997993052   Index: 7928        
+[!] Buying:   @ 683.39999997 Amount: 4.17036132561   Index: 7929        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 692.21003997 Amount: 4.1599354223    Index: 7931        
+[!] Buying:   @ 668.888      Amount: 4.29852193692   Index: 7932        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 679.81756722 Amount: 4.28777563208   Index: 7935        
+[!] Buying:   @ 676.0        Amount: 4.30552195442   Index: 7936        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 683.75933832 Amount: 4.29475814953   Index: 7937        
+[!] Buying:   @ 680.2603882  Amount: 4.31037315996   Index: 7938        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 688.9        Amount: 4.29959722706   Index: 7942        
+[!] Buying:   @ 687.58520522 Amount: 4.30135715323   Index: 7943        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 700.0        Amount: 4.29060376035   Index: 7965        
+[!] Buying:   @ 696.50000006 Amount: 4.30569633602   Index: 7966        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 715.49999999 Amount: 4.29493209518   Index: 8199        
+[!] Buying:   @ 716.0        Amount: 4.2854949416    Index: 8200        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 723.31400001 Amount: 4.27478120425   Index: 8207        
+[!] Buying:   @ 727.24259989 Amount: 4.24531109542   Index: 8208        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 735.0        Amount: 4.23469781768   Index: 8225        
+[!] Buying:   @ 737.99       Amount: 4.21121443604   Index: 8226        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 749.51639998 Amount: 4.20068639995   Index: 8240        
+[!] Buying:   @ 732.0        Amount: 4.29475494933   Index: 8241        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 742.35189214 Amount: 4.28401806196   Index: 8250        
+[!] Buying:   @ 741.85       Amount: 4.28048600241   Index: 8251        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 749.49999999 Amount: 4.2697847874    Index: 8264        
+[!] Buying:   @ 749.0        Amount: 4.2662261583    Index: 8265        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 764.0        Amount: 4.25556059291   Index: 8270        
+[!] Buying:   @ 771.0        Amount: 4.21059847022   Index: 8271        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 780.93019728 Amount: 4.20007197405   Index: 8458        
+[!] Buying:   @ 780.00000001 Amount: 4.19877319319   Index: 8459        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 790.0        Amount: 4.18827626021   Index: 25868       
+[!] Buying:   @ 790.0        Amount: 4.18199384581   Index: 25869       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 798.65656876 Amount: 4.1715388612    Index: 26227       
+[!] Buying:   @ 795.07500062 Amount: 4.18404486416   Index: 26228       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 803.99989994 Amount: 4.173584752     Index: 26256       
+[!] Buying:   @ 804.49999999 Amount: 4.16473384768   Index: 26257       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 813.33333333 Amount: 4.15432201306   Index: 26297       
+[!] Buying:   @ 816.25100001 Amount: 4.13326329488   Index: 26298       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 826.0        Amount: 4.12293013664   Index: 26304       
+[!] Buying:   @ 826.0        Amount: 4.11674574144   Index: 26305       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 834.46       Amount: 4.10645387708   Index: 26341       
+[!] Buying:   @ 837.00000002 Amount: 4.08785124843   Index: 26342       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 848.89000002 Amount: 4.07763162031   Index: 26366       
+[!] Buying:   @ 848.8808883  Amount: 4.07155887572   Index: 26367       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 862.0        Amount: 4.06137997853   Index: 26377       
+[!] Buying:   @ 869.0        Amount: 4.0226216078    Index: 26378       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 878.53999999 Amount: 4.01256505378   Index: 26441       
+[!] Buying:   @ 883.41739299 Amount: 3.98442585791   Index: 26442       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 893.25005681 Amount: 3.97446479327   Index: 26446       
+[!] Buying:   @ 889.0        Amount: 3.9874753836    Index: 26447       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 899.0        Amount: 3.97750669514   Index: 26449       
+[!] Buying:   @ 900.0        Amount: 3.96712761239   Index: 26450       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 910.0        Amount: 3.95720979336   Index: 26483       
+[!] Buying:   @ 909.33275067 Amount: 3.95417334077   Index: 26484       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 919.99999985 Amount: 3.94428790742   Index: 26526       
+[!] Buying:   @ 915.34000277 Amount: 3.95842172959   Index: 26527       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 924.88       Amount: 3.94852567526   Index: 26867       
+[!] Buying:   @ 933.44507463 Amount: 3.90642648079   Index: 26868       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 947.8745     Amount: 3.89666041459   Index: 26916       
+[!] Buying:   @ 946.0        Amount: 3.89852507884   Index: 26917       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 955.58088838 Amount: 3.88877876614   Index: 26939       
+[!] Buying:   @ 958.50000001 Amount: 3.87112008766   Index: 26940       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 969.12999923 Amount: 3.86144228744   Index: 26972       
+[!] Buying:   @ 968.99999999 Amount: 3.85616739087   Index: 26973       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 980.30953237 Amount: 3.84652697239   Index: 26999       
+[!] Buying:   @ 968.0        Amount: 3.8895980134    Index: 27000       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 979.06368093 Amount: 3.87987401836   Index: 27004       
+[!] Buying:   @ 974.99999899 Amount: 3.89020079619   Index: 27005       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 984.79999999 Amount: 3.8804752942    Index: 27364       
+[!] Buying:   @ 997.90000005 Amount: 3.82378978995   Index: 27365       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1008.72184235 Amount: 3.81423031548   Index: 27406       
+[!] Buying:   @ 1013.41542583 Amount: 3.79087004886   Index: 27407       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1023.99999999 Amount: 3.78139287374   Index: 27438       
+[!] Buying:   @ 1024.27644456 Amount: 3.77470174556   Index: 27439       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1035.97017408 Amount: 3.76526499119   Index: 27584       
+[!] Buying:   @ 1035.66718511 Amount: 3.76071698615   Index: 27585       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1050.56828404 Amount: 3.75131519368   Index: 27602       
+[!] Buying:   @ 1052.77041661 Amount: 3.73785317738   Index: 27603       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1064.99999689 Amount: 3.72850854443   Index: 27617       
+[!] Buying:   @ 1058.41310249 Amount: 3.74608485715   Index: 27618       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1070.98568996 Amount: 3.736719645     Index: 27629       
+[!] Buying:   @ 1076.69812057 Amount: 3.71131910695   Index: 27630       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1088.97      Amount: 3.70204080918   Index: 27638       
+[!] Buying:   @ 1088.8682613 Amount: 3.6968331303    Index: 27639       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1100.02      Amount: 3.68759104748   Index: 27654       
+[!] Buying:   @ 1111.57659104 Amount: 3.64377884604   Index: 27655       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1128.0       Amount: 3.63466939893   Index: 27657       
+[!] Buying:   @ 1131.42250006 Amount: 3.61823918222   Index: 27658       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1145.57861048 Amount: 3.60919358427   Index: 27701       
+[!] Buying:   @ 1147.03000001 Amount: 3.59921976646   Index: 27702       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1159.89      Amount: 3.59022171705   Index: 32449       
+[!] Buying:   @ 1157.3       Amount: 3.59285913245   Index: 32450       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1168.99999999 Amount: 3.58387698462   Index: 32466       
+[!] Buying:   @ 1168.47      Amount: 3.58012432214   Index: 32467       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1185.89999987 Amount: 3.57117401134   Index: 32476       
+[!] Buying:   @ 1179.40053887 Amount: 3.58546781803   Index: 32477       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1194.57709663 Amount: 3.57650414849   Index: 32481       
+[!] Buying:   @ 1188.0       Amount: 3.59091020781   Index: 32482       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1201.80000001 Amount: 3.58193293229   Index: 32496       
+[!] Buying:   @ 1201.22839806 Amount: 3.57826193129   Index: 32497       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1221.00000006 Amount: 3.56931627646   Index: 32499       
+[!] Buying:   @ 1217.34000047 Amount: 3.5746775505    Index: 32500       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1230.89898988 Amount: 3.56574085663   Index: 33056       
+[!] Buying:   @ 1226.63000004 Amount: 3.57278333175   Index: 33057       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1238.99999981 Amount: 3.56385137342   Index: 33118       
+[!] Buying:   @ 1240.0       Amount: 3.55563583324   Index: 33119       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1253.001     Amount: 3.54674674366   Index: 33123       
+[!] Buying:   @ 1250.0       Amount: 3.54992888058   Index: 33124       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1263.0       Amount: 3.54105405838   Index: 33128       
+[!] Buying:   @ 1265.123     Amount: 3.52980915596   Index: 33129       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1279.31650005 Amount: 3.52098463307   Index: 33130       
+[!] Buying:   @ 1264.00000032 Amount: 3.55830463273   Index: 33131       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1280.50000003 Amount: 3.54940887114   Index: 33187       
+[!] Buying:   @ 1282.88882189 Amount: 3.53748544307   Index: 33188       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1300.00000005 Amount: 3.52864172947   Index: 37825       
+[!] Buying:   @ 1297.00000035 Amount: 3.5314983777    Index: 37826       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1310.8       Amount: 3.52266963175   Index: 37827       
+[!] Buying:   @ 1307.119     Amount: 3.52729099667   Index: 37828       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1321.0       Amount: 3.51847276917   Index: 37831       
+[!] Buying:   @ 1319.99999967 Amount: 3.51585657231   Index: 37832       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1334.574     Amount: 3.50706693088   Index: 38039       
+[!] Buying:   @ 1343.5       Amount: 3.47854088701   Index: 38040       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1359.99999998 Amount: 3.46984453479   Index: 38111       
+[!] Buying:   @ 1357.99999957 Amount: 3.46974233129   Index: 38112       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1373.18554615 Amount: 3.46106797546   Index: 38309       
+[!] Buying:   @ 1375.97999992 Amount: 3.44885789448   Index: 38310       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1391.00168766 Amount: 3.44023574974   Index: 38388       
+[!] Buying:   @ 1395.44940076 Amount: 3.42412678714   Index: 38389       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1410.99999999 Amount: 3.41556647017   Index: 38409       
+[!] Buying:   @ 1410.99999998 Amount: 3.41044312049   Index: 38410       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1426.50799999 Amount: 3.40191701269   Index: 38491       
+[!] Buying:   @ 1423.02745168 Amount: 3.40512232243   Index: 38492       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1437.80249093 Amount: 3.39660951663   Index: 38505       
+[!] Buying:   @ 1434.39848005 Amount: 3.39956309987   Index: 38506       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1449.0       Amount: 3.39106419212   Index: 38542       
+[!] Buying:   @ 1445.01579851 Amount: 3.39531342247   Index: 38543       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1462.31136809 Amount: 3.38682513891   Index: 38834       
+[!] Buying:   @ 1454.37564276 Amount: 3.40019721702   Index: 38835       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1472.53000299 Amount: 3.39169672397   Index: 38873       
+[!] Buying:   @ 1470.80000021 Amount: 3.39059261871   Index: 38874       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1504.35922061 Amount: 3.38211613717   Index: 38876       
+[!] Buying:   @ 1500.0       Amount: 3.38685714648   Index: 38877       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1525.0       Amount: 3.37839000362   Index: 38885       
+[!] Buying:   @ 1539.07329874 Amount: 3.34247673103   Index: 38886       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1568.0       Amount: 3.3341205392    Index: 38888       
+[!] Buying:   @ 1537.31903015 Amount: 3.39556009623   Index: 38889       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1560.00000128 Amount: 3.38707119599   Index: 38904       
+[!] Buying:   @ 1557.96734977 Amount: 3.38640301047   Index: 38905       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1578.88882221 Amount: 3.37793700294   Index: 38958       
+[!] Buying:   @ 1591.60800894 Amount: 3.34591612112   Index: 38959       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1617.00000001 Amount: 3.33755133082   Index: 39083       
+[!] Buying:   @ 1607.0       Amount: 3.35328268277   Index: 39084       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1624.99999996 Amount: 3.34489947606   Index: 39094       
+[!] Buying:   @ 1614.45701676 Amount: 3.36169275469   Index: 39095       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1633.17000001 Amount: 3.3532885228    Index: 39142       
+[!] Buying:   @ 1621.40384178 Amount: 3.37255613968   Index: 39143       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1638.85515302 Amount: 3.36412474933   Index: 39161       
+[!] Buying:   @ 1634.99999988 Amount: 3.3669989061    Index: 39162       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1658.00000001 Amount: 3.35858140883   Index: 39175       
+[!] Buying:   @ 1656.99999999 Amount: 3.3555674013    Index: 39176       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1677.06867912 Amount: 3.34717848279   Index: 39179       
+[!] Buying:   @ 1675.960817  Amount: 3.34436698506   Index: 39180       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1700.0       Amount: 3.33600606759   Index: 39572       
+[!] Buying:   @ 1710.0       Amount: 3.31152251429   Index: 39573       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1732.88882221 Amount: 3.303243708     Index: 39596       
+[!] Buying:   @ 1743.11377186 Amount: 3.27894137477   Index: 39597       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1768.89999999 Amount: 3.27074402134   Index: 39617       
+[!] Buying:   @ 1775.00000001 Amount: 3.25461446232   Index: 39618       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1797.888     Amount: 3.24647792617   Index: 39633       
+[!] Buying:   @ 1797.29999998 Amount: 3.24266872544   Index: 39634       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1828.65051115 Amount: 3.23456205362   Index: 39797       
+[!] Buying:   @ 1820.22182306 Amount: 3.24466565149   Index: 39798       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1855.63102004 Amount: 3.23655398736   Index: 39799       
+[!] Buying:   @ 1854.63535176 Amount: 3.23343410678   Index: 39800       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1873.982     Amount: 3.22535052151   Index: 39807       
+[!] Buying:   @ 1864.73338329 Amount: 3.23648544175   Index: 39808       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1888.1575308 Amount: 3.22839422815   Index: 39810       
+[!] Buying:   @ 1895.617224  Amount: 3.21086621387   Index: 39811       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1921.99999999 Amount: 3.20283904833   Index: 40509       
+[!] Buying:   @ 1931.0       Amount: 3.18312939714   Index: 40510       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1967.4       Amount: 3.17517157365   Index: 40548       
+[!] Buying:   @ 1976.1283806 Amount: 3.15640540686   Index: 40549       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1997.70000002 Amount: 3.14851439334   Index: 40666       
+[!] Buying:   @ 1991.36508294 Amount: 3.15379263031   Index: 40667       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2025.0       Amount: 3.14590814873   Index: 40714       
+[!] Buying:   @ 2012.00000102 Amount: 3.16148523954   Index: 40715       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2036.90006245 Amount: 3.15358152644   Index: 40717       
+[!] Buying:   @ 2028.10668475 Amount: 3.1625038075    Index: 40718       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2054.99999999 Amount: 3.15459754798   Index: 40725       
+[!] Buying:   @ 2053.055     Amount: 3.1528497357    Index: 40726       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2074.60645908 Amount: 3.14496761136   Index: 40738       
+[!] Buying:   @ 2065.11860126 Amount: 3.15467753812   Index: 40739       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2088.9       Amount: 3.14679084428   Index: 40777       
+[!] Buying:   @ 2088.2278072 Amount: 3.14308207892   Index: 40778       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2127.0       Amount: 3.13522437372   Index: 40857       
+[!] Buying:   @ 2136.00000007 Amount: 3.11733113733   Index: 40858       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2157.42299999 Amount: 3.10953780948   Index: 40868       
+[!] Buying:   @ 2152.64487943 Amount: 3.11176523863   Index: 40869       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2178.0       Amount: 3.10398582554   Index: 40898       
+[!] Buying:   @ 2174.35271799 Amount: 3.10452869513   Index: 40899       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2206.0       Amount: 3.09676737339   Index: 40907       
+[!] Buying:   @ 2181.00000016 Amount: 3.12756608068   Index: 40908       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2208.1536902 Amount: 3.11974716548   Index: 40911       
+[!] Buying:   @ 2200.132     Amount: 3.12642509364   Index: 40912       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2229.99999998 Amount: 3.1186090309    Index: 40990       
+[!] Buying:   @ 2217.13302   Amount: 3.13200260381   Index: 40991       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2244.89495691 Amount: 3.1241725973    Index: 41026       
+[!] Buying:   @ 2250.00000007 Amount: 3.11240851068   Index: 41027       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2293.0       Amount: 3.1046274894    Index: 41030       
+[!] Buying:   @ 2290.0       Amount: 3.10403164495   Index: 41031       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2316.0       Amount: 3.09627156584   Index: 41043       
+[!] Buying:   @ 2306.02149863 Amount: 3.10500509354   Index: 41044       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2348.09002327 Amount: 3.09724258081   Index: 41096       
+[!] Buying:   @ 2349.00000002 Amount: 3.091398679     Index: 41097       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2378.99999999 Amount: 3.08367018231   Index: 41100       
+[!] Buying:   @ 2378.8       Amount: 3.0793035508    Index: 41101       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2423.22168877 Amount: 3.07160529192   Index: 41103       
+[!] Buying:   @ 2414.1       Amount: 3.07858655063   Index: 41104       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2444.11      Amount: 3.07089008425   Index: 41107       
+[!] Buying:   @ 2365.0       Amount: 3.16885191293   Index: 41108       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2400.99999997 Amount: 3.16092978315   Index: 41109       
+[!] Buying:   @ 2393.22000001 Amount: 3.16644868445   Index: 41110       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2420.0       Amount: 3.15853256274   Index: 41112       
+[!] Buying:   @ 2419.00000003 Amount: 3.15509852357   Index: 41113       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2460.13294553 Amount: 3.14721077726   Index: 41127       
+[!] Buying:   @ 2479.99999993 Amount: 3.11731575989   Index: 41128       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2512.99999997 Amount: 3.10952247049   Index: 41162       
+[!] Buying:   @ 2538.51820009 Amount: 3.07364691063   Index: 41163       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2565.54002567 Amount: 3.06596279335   Index: 41164       
+[!] Buying:   @ 2585.299     Amount: 3.03796639699   Index: 41165       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2628.0       Amount: 3.030371481     Index: 41173       
+[!] Buying:   @ 2635.0       Amount: 3.01778767654   Index: 41174       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2669.21778135 Amount: 3.01024320735   Index: 41180       
+[!] Buying:   @ 2682.00999996 Amount: 2.99139160679   Index: 41181       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2744.01      Amount: 2.98391312777   Index: 42284       
+[!] Buying:   @ 2720.0       Amount: 3.00573736417   Index: 42285       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2770.0       Amount: 2.99822302076   Index: 42286       
+[!] Buying:   @ 2742.4897725 Amount: 3.02375608981   Index: 42287       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2781.80000008 Amount: 3.01619669959   Index: 42291       
+[!] Buying:   @ 2768.0       Amount: 3.02668724537   Index: 42292       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2796.0       Amount: 3.01912052726   Index: 42301       
+[!] Buying:   @ 2765.0       Amount: 3.04839016373   Index: 42302       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2799.55544433 Amount: 3.04076918832   Index: 42311       
+[!] Buying:   @ 2812.0000002 Amount: 3.02277124204   Index: 42312       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2861.999     Amount: 3.01521431393   Index: 42324       
+[!] Buying:   @ 2881.0       Amount: 2.99083514083   Index: 42325       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2910.146211  Amount: 2.98335805298   Index: 42816       
+[!] Buying:   @ 2956.00000001 Amount: 2.93267426309   Index: 42817       
+[+] "Rising BTC Bet Estimator": Done
+[!] No dollar amount, computing revenue based on other currency
+[!] Currency Amount: 2.92534257744 Exchange rate: 2874.99999999
+[!] Printing results to file ...
+[+] Done: Writing /home/cosmo/Desktop/test/poloniex_trader/results/export.gain_result3_g1_i2000
+
+
+##################################[   GAINS   ]##################################
+|                                                                               |
+|  Initial Investment:                  2000                                    |
+|  Final Investment (after deduction):  8410.3599101                            |
+|  Total Fees:                          2896.16812382                           |
+|--------------------------------------------------------------------------------
+|  Date Range                                                                   |
+|  From:                                2016-03-22 16:15:00                     |
+|  To:                                  2017-08-04 17:00:00                     |
+|--------------------------------------------------------------------------------
+|  Committed Actions                                                            |
+|  Holds:                                                                       |
+|  Buys:                                                                        |
+|  Sells:                                                                       |
+|--------------------------------------------------------------------------------
+|  Initial Close:                 416.20570996                                  |
+|  Final Close:                  2874.99999999                                  |
+|  Profit:                               6410.3599101                           |
+|  Relative gain:                       420.517995505%                          |
+#################################################################################
+[!] Creating "Rising BTC Bet" estimator
+[!] Buying:   @ 415.93061511 Amount: 4.80849431935   Index: 1           
+[!] Setting external sell trigger: False
+[!] Selling:  @ 425.0        Amount: 4.79647308355   Index: 483         
+[!] Buying:   @ 425.0        Amount: 4.78927837393   Index: 484         
+[!] Setting external sell trigger: False
+[!] Selling:  @ 434.4754     Amount: 4.77730517799   Index: 2304        
+[!] Buying:   @ 433.47365798 Amount: 4.78116284025   Index: 2305        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 442.39220322 Amount: 4.76920993315   Index: 2725        
+[!] Buying:   @ 441.4410045  Amount: 4.77231719876   Index: 2726        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 450.64347068 Amount: 4.76038640576   Index: 2898        
+[!] Buying:   @ 451.11585581 Amount: 4.74826847362   Index: 2899        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 462.1231416  Amount: 4.73639780243   Index: 3186        
+[!] Buying:   @ 464.0        Amount: 4.71016343487   Index: 3187        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 473.82261501 Amount: 4.69838802628   Index: 3292        
+[!] Buying:   @ 468.35485763 Amount: 4.74610898335   Index: 3293        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 478.57540364 Amount: 4.73424371089   Index: 6382        
+[!] Buying:   @ 479.72299154 Amount: 4.71583412901   Index: 6383        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 490.0        Amount: 4.70404454369   Index: 6391        
+[!] Buying:   @ 490.55578629 Amount: 4.69166691739   Index: 6392        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 501.0        Amount: 4.67993775009   Index: 6396        
+[!] Buying:   @ 500.85219151 Amount: 4.67429688691   Index: 6397        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 513.06000001 Amount: 4.66261114469   Index: 6454        
+[!] Buying:   @ 510.0        Amount: 4.68355093144   Index: 6455        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 520.70235879 Amount: 4.67184205411   Index: 6460        
+[!] Buying:   @ 519.0        Amount: 4.68013529615   Index: 6461        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 532.1950001  Amount: 4.66843495791   Index: 6541        
+[!] Buying:   @ 537.01000001 Amount: 4.61963644295   Index: 6542        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 548.75       Amount: 4.60808735185   Index: 6980        
+[!] Buying:   @ 547.56351996 Amount: 4.61114521035   Index: 6981        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 562.0        Amount: 4.59961734732   Index: 7005        
+[!] Buying:   @ 563.8700001  Amount: 4.5774867812    Index: 7006        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 577.81975245 Amount: 4.56604306424   Index: 7031        
+[!] Buying:   @ 572.00000154 Amount: 4.60558101601   Index: 7032        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 585.0        Amount: 4.59406706347   Index: 7074        
+[!] Buying:   @ 581.48       Amount: 4.61494451792   Index: 7075        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 596.701      Amount: 4.60340715662   Index: 7809        
+[!] Buying:   @ 597.0        Amount: 4.5941999452    Index: 7810        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 609.0        Amount: 4.58271444534   Index: 7817        
+[!] Buying:   @ 609.0        Amount: 4.57584037367   Index: 7818        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 622.00001001 Amount: 4.56440077273   Index: 7826        
+[!] Buying:   @ 626.0        Amount: 4.52843249256   Index: 7827        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 640.73099999 Amount: 4.51711141132   Index: 7854        
+[!] Buying:   @ 642.0        Amount: 4.50142045433   Index: 7855        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 655.18166532 Amount: 4.49016690319   Index: 7894        
+[!] Buying:   @ 655.655      Amount: 4.48019494498   Index: 7895        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 672.279      Amount: 4.46899445762   Index: 7901        
+[!] Buying:   @ 677.27999999 Amount: 4.42934164353   Index: 7902        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 692.21003997 Amount: 4.41826828942   Index: 7931        
+[!] Buying:   @ 668.888      Amount: 4.56546105584   Index: 7932        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 683.75933832 Amount: 4.5540474032    Index: 7937        
+[!] Buying:   @ 680.2603882  Amount: 4.57060514527   Index: 7938        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 700.0        Amount: 4.5591786324    Index: 7965        
+[!] Buying:   @ 696.50000006 Amount: 4.57521594378   Index: 7966        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 715.49999999 Amount: 4.56377790392   Index: 8199        
+[!] Buying:   @ 716.0        Amount: 4.55375002175   Index: 8200        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 730.93964669 Amount: 4.5423656467    Index: 8211        
+[!] Buying:   @ 719.00000001 Amount: 4.61086905171   Index: 8212        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 733.78716361 Amount: 4.59934187908   Index: 8221        
+[!] Buying:   @ 730.82       Amount: 4.61108840053   Index: 8222        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 749.51639998 Amount: 4.59956067953   Index: 8240        
+[!] Buying:   @ 732.0        Amount: 4.70256146553   Index: 8241        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 749.49999999 Amount: 4.69080506186   Index: 8264        
+[!] Buying:   @ 749.0        Amount: 4.68689553569   Index: 8265        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 764.0        Amount: 4.67517829685   Index: 8270        
+[!] Buying:   @ 771.0        Amount: 4.62578270358   Index: 8271        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 786.99999999 Amount: 4.61421824682   Index: 8464        
+[!] Buying:   @ 776.31400054 Amount: 4.67071658252   Index: 8465        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 792.33356167 Amount: 4.65903979106   Index: 25906       
+[!] Buying:   @ 790.44199997 Amount: 4.66318379004   Index: 25907       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 807.25100001 Amount: 4.65152583057   Index: 26262       
+[!] Buying:   @ 806.33192559 Amount: 4.64984249785   Index: 26263       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 826.0        Amount: 4.6382178916    Index: 26304       
+[!] Buying:   @ 826.0        Amount: 4.63126056477   Index: 26305       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 845.0        Amount: 4.61968241335   Index: 26365       
+[!] Buying:   @ 848.89000002 Amount: 4.5916151583    Index: 26366       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 869.0        Amount: 4.58013612041   Index: 26378       
+[!] Buying:   @ 865.2989484  Amount: 4.59282666245   Index: 26379       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 883.41739299 Amount: 4.58134459579   Index: 26442       
+[!] Buying:   @ 889.30281164 Amount: 4.54419865434   Index: 26443       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 908.00123002 Amount: 4.53283815771   Index: 26465       
+[!] Buying:   @ 906.0        Amount: 4.53603630104   Index: 26466       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 924.88       Amount: 4.52469621029   Index: 26867       
+[!] Buying:   @ 933.44507463 Amount: 4.47645388357   Index: 26868       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 952.93792948 Amount: 4.46526274886   Index: 26938       
+[!] Buying:   @ 955.58088838 Amount: 4.44623329411   Index: 26939       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 976.352      Amount: 4.43511771087   Index: 26998       
+[!] Buying:   @ 980.30953237 Amount: 4.41058721802   Index: 26999       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1000.99999899 Amount: 4.39956074997   Index: 27373       
+[!] Buying:   @ 996.59538192 Amount: 4.41237682373   Index: 27374       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1016.99999999 Amount: 4.40134588167   Index: 27413       
+[!] Buying:   @ 1016.40000001 Amount: 4.39733816256   Index: 27414       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1037.1       Amount: 4.38634481716   Index: 27586       
+[!] Buying:   @ 1036.0       Amount: 4.38441562988   Index: 27587       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1057.47600374 Amount: 4.37345459081   Index: 27608       
+[!] Buying:   @ 1057.872     Amount: 4.36525973681   Index: 27609       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1079.99999999 Amount: 4.35434658747   Index: 27631       
+[!] Buying:   @ 1082.0       Amount: 4.33977844081   Index: 27632       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1111.57659104 Amount: 4.3289289947    Index: 27655       
+[!] Buying:   @ 1121.99990019 Amount: 4.28228044385   Index: 27656       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1145.57861048 Amount: 4.27157474274   Index: 27701       
+[!] Buying:   @ 1147.03000001 Amount: 4.25977046923   Index: 27702       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1177.614031  Amount: 4.24912104306   Index: 32475       
+[!] Buying:   @ 1185.89999987 Amount: 4.21310297953   Index: 32476       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1221.00000006 Amount: 4.20257022208   Index: 32499       
+[!] Buying:   @ 1217.34000047 Amount: 4.20888267212   Index: 32500       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1250.01      Amount: 4.19836046544   Index: 33121       
+[!] Buying:   @ 1250.00000001 Amount: 4.19209646121   Index: 33122       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1279.31650005 Amount: 4.18161622006   Index: 33130       
+[!] Buying:   @ 1264.00000032 Amount: 4.2259384572    Index: 33131       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1289.88882222 Amount: 4.21537361106   Index: 33195       
+[!] Buying:   @ 1288.15500007 Amount: 4.21471582002   Index: 33196       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1321.0       Amount: 4.20417903047   Index: 37831       
+[!] Buying:   @ 1319.99999967 Amount: 4.20105296961   Index: 37832       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1347.49999999 Amount: 4.19055033719   Index: 38048       
+[!] Buying:   @ 1344.0       Amount: 4.19516103382   Index: 38049       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1373.18554615 Amount: 4.18467313123   Index: 38309       
+[!] Buying:   @ 1375.97999992 Amount: 4.16991028977   Index: 38310       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1407.99999975 Amount: 4.15948551404   Index: 38402       
+[!] Buying:   @ 1405.0       Amount: 4.16211442657   Index: 38403       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1435.0       Amount: 4.1517091405    Index: 38496       
+[!] Buying:   @ 1430.0       Amount: 4.15997626762   Index: 38497       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1462.31136809 Amount: 4.14957632695   Index: 38834       
+[!] Buying:   @ 1454.37564276 Amount: 4.16595994774   Index: 38835       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1504.35922061 Amount: 4.15554504787   Index: 38876       
+[!] Buying:   @ 1500.0       Amount: 4.16137024044   Index: 38877       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1539.07329874 Amount: 4.15096681484   Index: 38886       
+[!] Buying:   @ 1535.69999999 Amount: 4.15384464767   Index: 38887       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1568.0       Amount: 4.14346003605   Index: 38888       
+[!] Buying:   @ 1537.31903015 Amount: 4.21981370899   Index: 38889       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1578.88882221 Amount: 4.20926417472   Index: 38958       
+[!] Buying:   @ 1591.60800894 Amount: 4.16936279391   Index: 38959       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1624.99999996 Amount: 4.15893938693   Index: 39094       
+[!] Buying:   @ 1614.45701676 Amount: 4.17981960423   Index: 39095       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1647.26      Amount: 4.16937005522   Index: 39163       
+[!] Buying:   @ 1644.48482633 Amount: 4.17014152553   Index: 39164       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1690.7625    Amount: 4.15971617171   Index: 39181       
+[!] Buying:   @ 1672.96559262 Amount: 4.19766103175   Index: 39182       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1710.0       Amount: 4.18716687917   Index: 39573       
+[!] Buying:   @ 1710.00000006 Amount: 4.18088612871   Index: 39574       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1749.0       Amount: 4.17043391339   Index: 39598       
+[!] Buying:   @ 1749.99      Amount: 4.16182251392   Index: 39599       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1784.99999999 Amount: 4.15141795764   Index: 39625       
+[!] Buying:   @ 1766.39432082 Amount: 4.18885270721   Index: 39626       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1802.53432305 Amount: 4.17838057544   Index: 39661       
+[!] Buying:   @ 1807.0       Amount: 4.16180237432   Index: 39662       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1855.63102004 Amount: 4.15139786838   Index: 39799       
+[!] Buying:   @ 1854.63535176 Amount: 4.1473961228    Index: 39800       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1895.617224  Amount: 4.1370276325    Index: 39811       
+[!] Buying:   @ 1896.0       Amount: 4.12998813559   Index: 39812       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1937.0       Amount: 4.11966316525   Index: 40538       
+[!] Buying:   @ 1934.00000017 Amount: 4.11986446177   Index: 40539       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 1976.1283806 Amount: 4.10956480061   Index: 40549       
+[!] Buying:   @ 1968.51103193 Amount: 4.11927896843   Index: 40550       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2010.04732   Amount: 4.10898077101   Index: 40713       
+[!] Buying:   @ 2025.0       Amount: 4.07252193483   Index: 40714       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2067.0       Amount: 4.06234062999   Index: 40734       
+[!] Buying:   @ 2071.34965408 Amount: 4.04772935296   Index: 40735       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2127.0       Amount: 4.03761002958   Index: 40857       
+[!] Buying:   @ 2136.00000007 Amount: 4.01456673119   Index: 40858       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2190.0       Amount: 4.00453031437   Index: 40900       
+[!] Buying:   @ 2192.000002  Amount: 3.99487522737   Index: 40901       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2244.89495691 Amount: 3.9848880393    Index: 41026       
+[!] Buying:   @ 2250.00000007 Amount: 3.96988292462   Index: 41027       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2295.98701554 Amount: 3.95995821731   Index: 41032       
+[!] Buying:   @ 2295.00000002 Amount: 3.95571879302   Index: 41033       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2348.09002327 Amount: 3.94582949603   Index: 41096       
+[!] Buying:   @ 2349.00000002 Amount: 3.93838447372   Index: 41097       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2423.22168877 Amount: 3.92853851254   Index: 41103       
+[!] Buying:   @ 2414.1       Amount: 3.93746744093   Index: 41104       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2479.99999993 Amount: 3.92762377233   Index: 41128       
+[!] Buying:   @ 2482.99999997 Amount: 3.91699403737   Index: 41129       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2538.51820009 Amount: 3.90720155228   Index: 41163       
+[!] Buying:   @ 2565.54002567 Amount: 3.86024945992   Index: 41164       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2628.0       Amount: 3.85059883627   Index: 41173       
+[!] Buying:   @ 2635.0       Amount: 3.83460898714   Index: 41174       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2694.00000004 Amount: 3.82502246467   Index: 42283       
+[!] Buying:   @ 2744.01      Amount: 3.74967788171   Index: 42284       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2799.55544433 Amount: 3.74030368701   Index: 42311       
+[!] Buying:   @ 2812.0000002 Amount: 3.71816528035   Index: 42312       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2881.0       Amount: 3.70886986715   Index: 42325       
+[!] Buying:   @ 2869.30000003 Amount: 3.71840734883   Index: 42326       
+[!] Setting external sell trigger: False
+[!] Selling:  @ 2956.00000001 Amount: 3.70911133046   Index: 42817       
+[!] Buying:   @ 2944.0       Amount: 3.7186436458    Index: 42818       
+^[[B^[[A[+] "Rising BTC Bet Estimator": Done
+[!] No dollar amount, computing revenue based on other currency
+[!] Currency Amount: 3.70934703669 Exchange rate: 2874.99999999
+[!] Printing results to file ...
+[+] Done: Writing /home/cosmo/Desktop/test/poloniex_trader/results/export.gain_result3_g2_i2000
+
+
+##################################[   GAINS   ]##################################
+|                                                                               |
+|  Initial Investment:                  2000                                    |
+|  Final Investment (after deduction): 10664.3727304                            |
+|  Total Fees:                          1889.21916456                           |
+|--------------------------------------------------------------------------------
+|  Date Range                                                                   |
+|  From:                                2016-03-22 16:15:00                     |
+|  To:                                  2017-08-04 17:00:00                     |
+|--------------------------------------------------------------------------------
+|  Committed Actions                                                            |
+|  Holds:                                                                       |
+|  Buys:                                                                        |
+|  Sells:                                                                       |
+|--------------------------------------------------------------------------------
+|  Initial Close:                 416.20570996                                  |
+|  Final Close:                  2874.99999999                                  |
+|  Profit:                              8664.37273044                           |
+|  Relative gain:                       533.218636522%                          |
+#################################################################################
+[!] Creating "Rising BTC Bet" estimator
+[!] Buying:   @ 415.93061511 Amount: 4.80849431935   Index: 1           
+[!] Setting external sell trigger: False
+[!] Selling:  @ 438.13564022 Amount: 4.79647308355   Index: 2718        
+[!] Buying:   @ 436.51000002 Amount: 4.80711449098   Index: 2721        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 459.0        Amount: 4.79509670475   Index: 3141        
+[!] Buying:   @ 455.58646352 Amount: 4.82377800784   Index: 3142        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 478.57540364 Amount: 4.81171856282   Index: 6382        
+[+] "Rising BTC Bet Estimator": Done
+[!] Printing results to file ...
+[+] Done: Writing /home/cosmo/Desktop/test/poloniex_trader/results/export.gain_result3_g5_i2000
+
+
+##################################[   GAINS   ]##################################
+|                                                                               |
+|  Initial Investment:                  2000                                    |
+|  Final Investment (after deduction): 2299.31599817                            |
+|  Total Fees:                          25.6084917847                           |
+|--------------------------------------------------------------------------------
+|  Date Range                                                                   |
+|  From:                                2016-03-22 16:15:00                     |
+|  To:                                  2017-08-04 17:00:00                     |
+|--------------------------------------------------------------------------------
+|  Committed Actions                                                            |
+|  Holds:                                                                       |
+|  Buys:                                                                        |
+|  Sells:                                                                       |
+|--------------------------------------------------------------------------------
+|  Initial Close:                 416.20570996                                  |
+|  Final Close:                  2874.99999999                                  |
+|  Profit:                              299.315998174                           |
+|  Relative gain:                       114.965799909%                          |
+#################################################################################
+[!] Creating "Rising BTC Bet" estimator
+[!] Buying:   @ 415.93061511 Amount: 4.80849431935   Index: 1           
+[!] Setting external sell trigger: False
+[!] Selling:  @ 457.95750001 Amount: 4.79647308355   Index: 3117        
+[!] Buying:   @ 430.79159835 Amount: 5.09129230787   Index: 3911        
+[!] Setting external sell trigger: False
+[!] Selling:  @ 474.149      Amount: 5.0785640771    Index: 6295        
+[+] "Rising BTC Bet Estimator": Done
+[!] Printing results to file ...
+[+] Done: Writing /home/cosmo/Desktop/test/poloniex_trader/results/export.gain_result3_g10_i2000
+
+
+##################################[   GAINS   ]##################################
+|                                                                               |
+|  Initial Investment:                  2000                                    |
+|  Final Investment (after deduction): 2404.38408448                            |
+|  Total Fees:                          17.3638721914                           |
+|--------------------------------------------------------------------------------
+|  Date Range                                                                   |
+|  From:                                2016-03-22 16:15:00                     |
+|  To:                                  2017-08-04 17:00:00                     |
+|--------------------------------------------------------------------------------
+|  Committed Actions                                                            |
+|  Holds:                                                                       |
+|  Buys:                                                                        |
+|  Sells:                                                                       |
+|--------------------------------------------------------------------------------
+|  Initial Close:                 416.20570996                                  |
+|  Final Close:                  2874.99999999                                  |
+|  Profit:                              404.384084476                           |
+|  Relative gain:                       120.219204224%                          |
+#################################################################################
+[!] Printing chart to file /home/cosmo/Desktop/test/poloniex_trader/results/export.gain_result3_strategies_combined.png
+[!] Strategy: 0 420.51799550504086
+[!] Strategy: 1 533.2186365219554
+[!] Strategy: 2 114.96579990872448
+[!] Strategy: 3 120.219204223794
+[+] The winner is strategy: 1
+
