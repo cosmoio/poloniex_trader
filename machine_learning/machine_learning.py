@@ -17,13 +17,10 @@ def build_prediction_forest(df):
     with open(filename) as data_file:
         data = json.load(data_file)
 
-
     print_message("Creating dataframe","information")
     df = pd.DataFrame(data)
 
-    
     #do_ml(df)
-
 
     print_message("Creating new features from indicators","information")
 
@@ -49,7 +46,6 @@ def build_prediction_forest(df):
         
     print_message("Training sample size: "+str((num_training_samples/len(df))*100)+" of dataset","success")
     dff["is_train"] = df.index < (len(df) * training_size)
-
 
     print_message("Creating binning labels for performance","information")
 
@@ -216,8 +212,8 @@ def compute_r2(df):
 def compute_MACD(df, n_short,n_long):
     print_message("Creating \"MACD\"  Indicator","information")
 
-    df['EMA_'+str(n_short)] = pd.ewma(df["close"], span=n_short)
-    df['EMA_'+str(n_long)] = pd.ewma(df["close"], span=n_long)
+    df['EMA_'+str(n_short)] = pd.Series.ewm(df["close"], span=n_short)
+    df['EMA_'+str(n_long)] = pd.Series.ewm(df["close"], span=n_long)
 
     df['MACD'] = (df['EMA_'+str(n_short)] - df['EMA_'+str(n_long)])
 
